@@ -65,7 +65,7 @@ export default function Login() {
             >
               <Sparkles className="w-6 h-6 text-white" />
             </motion.div>
-            <span className="text-3xl font-bold text-foreground">Selfin</span>
+            <span className="text-3xl font-bold text-foreground">Reeshaw</span>
           </motion.div>
           <p className="text-muted-foreground text-lg">Your autonomous financial agent</p>
         </motion.div>
@@ -93,7 +93,7 @@ export default function Login() {
             <FeatureItem 
               icon={<Zap className="w-5 h-5" />}
               title="Zero-Click Automation"
-              description="Set your goals, define guardrails. Selfin handles the rest."
+              description="Set your goals, define guardrails. Reeshaw handles the rest."
               delay={0.2}
             />
           </div>
@@ -143,7 +143,7 @@ export default function Login() {
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center shadow-lg">
                 <Sparkles className="w-5 h-5 text-white" />
               </div>
-              <span className="text-2xl font-bold">Selfin</span>
+              <span className="text-2xl font-bold">Reeshaw</span>
             </motion.div>
             <motion.h1 className="text-display">Welcome back</motion.h1>
             <motion.p className="text-muted-foreground text-lg leading-relaxed">

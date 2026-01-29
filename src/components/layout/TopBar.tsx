@@ -22,7 +22,7 @@ export function TopBar() {
           className="text-xl font-bold text-foreground tracking-tight"
           whileHover={{ scale: 1.05 }}
         >
-          Selfin
+          Reeshaw
         </motion.h1>
         <motion.div 
           className="status-pill-active"
