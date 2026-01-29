@@ -1,5 +1,6 @@
 import { ReactNode, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import { TopBar } from './TopBar';
 import { Sidebar } from './Sidebar';
 import { useAuth } from '@/contexts/AuthContext';
@@ -36,9 +37,13 @@ export function AppLayout({ children }: AppLayoutProps) {
       <div className="flex-1 flex">
         <Sidebar />
         <main className="flex-1 overflow-auto">
-          <div className="animate-fade-in">
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+          >
             {children}
-          </div>
+          </motion.div>
         </main>
       </div>
     </div>
